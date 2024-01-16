@@ -46,6 +46,7 @@ public class ActitimeLoginPage extends BasePage implements AutoConstant
 	{
 		wait=new WebDriverWait(driver, Duration.ofSeconds(80));
 		wait.until(ExpectedConditions.visibilityOf(usernameTextfield));
+		
 		javascriptHighlightElement(driver,usernameTextfield);
 		
 		usernameTextfield.sendKeys(ExcelLibrary.getStringCellTypeData(sheet_login,1,0));
@@ -55,6 +56,7 @@ public class ActitimeLoginPage extends BasePage implements AutoConstant
 		
 		wait=new WebDriverWait(driver, Duration.ofSeconds(80));
 		wait.until(ExpectedConditions.visibilityOf(passwordTextfield));
+		
 		javascriptHighlightElement(driver,passwordTextfield);
 		
 		passwordTextfield.sendKeys(ExcelLibrary.getStringCellTypeData(sheet_login,1,1));
@@ -67,6 +69,7 @@ public class ActitimeLoginPage extends BasePage implements AutoConstant
 		wait.until(ExpectedConditions.visibilityOf(keepmeloggedinCheckbox));
 		
 		javascriptHighlightElement(driver,keepmeloggedinCheckbox);
+		
 		javascriptClick(driver,keepmeloggedinCheckbox);
 		
 		
@@ -75,6 +78,7 @@ public class ActitimeLoginPage extends BasePage implements AutoConstant
 		wait.until(ExpectedConditions.visibilityOf(loginButton));;
 		
 		javascriptHighlightElement(driver,loginButton);
+		
 		javascriptClick(driver,loginButton);
 		
 		
