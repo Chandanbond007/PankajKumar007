@@ -1,0 +1,6 @@
+[INFO ] 2024-03-14 19:36:11.590 [main] ActBaseClass - Driver setup
+[INFO ] 2024-03-14 19:36:14.950 [main] ActBaseClass - Launched Chrome Browser
+[INFO ] 2024-03-14 19:36:14.970 [main] ActBaseClass - Entered the URL
+[INFO ] 2024-03-14 19:37:05.389 [main] ActBaseClass - Entered the email
+[INFO ] 2024-03-14 19:37:05.440 [main] ActBaseClass - Entered the password
+[INFO ] 2024-03-14 19:37:10.474 [main] ActBaseClass - Logged in successfully

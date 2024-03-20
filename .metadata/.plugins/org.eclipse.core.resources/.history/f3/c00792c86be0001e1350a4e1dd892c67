@@ -1,0 +1,26 @@
+package StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import POM.Addnewcustomer;
+import POM.HomePage;
+import POM.LoginPage;
+import POM.SearchCustomer;
+import POM.ValidateCustomer;
+import io.cucumber.java.Before;
+
+public class BaseClass 
+{
+	@Before
+	public void setup()
+	{
+		System.out.println("Setup started");
+		public WebDriver driver;
+		public LoginPage login;
+		public HomePage home;
+		public SearchCustomer customer;
+		public ValidateCustomer cos;
+		public Addnewcustomer newcustomer;
+	}
+
+}

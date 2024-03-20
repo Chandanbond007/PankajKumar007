@@ -1,0 +1,19 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ReadConfig 
+{
+	Properties properties;
+	String path="config.properties";
+
+	public Readconfig()
+	{
+		properties = new Properties();
+		FileInputStream fis;
+		fis=new FileInputStream(path);
+		properties.load(fis);
+	}
+
+}

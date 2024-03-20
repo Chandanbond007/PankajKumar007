@@ -1,0 +1,10 @@
+package Practice;
+
+public class RevString 
+{
+	public static void main(String[] args) 
+	{
+		String x="123456";
+	}
+
+}

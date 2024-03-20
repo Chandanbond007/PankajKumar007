@@ -1,0 +1,11 @@
+package AutoIT;
+
+public class GmailAttachFiles 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

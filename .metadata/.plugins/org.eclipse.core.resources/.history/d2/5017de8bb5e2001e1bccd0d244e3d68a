@@ -1,0 +1,16 @@
+package StepDefination;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import POM.HmLoginPage;
+import io.cucumber.core.logging.Logger;
+
+public class HMBaseClass 
+{
+	public WebDriver driver;
+	public HmLoginPage login;
+	public static Logger log=LogManager.getLogger(HMBaseClass.class);
+	
+}

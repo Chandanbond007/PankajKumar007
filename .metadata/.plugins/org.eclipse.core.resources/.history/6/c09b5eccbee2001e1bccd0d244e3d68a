@@ -1,0 +1,8 @@
+16:33:53.967 [main]INFO  StepDefination.ActBaseClass - Driver setup
+16:33:55.961 [main]INFO  StepDefination.ActBaseClass - Launched Chrome Browser
+16:33:55.988 [main]INFO  StepDefination.ActBaseClass - Entered the URL
+16:34:05.405 [main]INFO  StepDefination.ActBaseClass - Entered the email
+16:34:05.482 [main]INFO  StepDefination.ActBaseClass - Entered the password
+16:34:10.518 [main]INFO  StepDefination.ActBaseClass - Logged in successfully
+16:34:15.388 [main]INFO  StepDefination.ActBaseClass - Logged out successfully
+16:34:15.627 [main]INFO  StepDefination.ActBaseClass - Browser Closed

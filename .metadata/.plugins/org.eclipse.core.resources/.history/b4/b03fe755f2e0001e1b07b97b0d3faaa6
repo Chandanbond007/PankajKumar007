@@ -1,0 +1,15 @@
+package Practice;
+
+public class IntToString 
+{
+	public static void main(String[] args) 
+	{
+		int x=123456;
+		System.out.println(x);
+		
+		//Converting int value to string...
+		
+		String x1=""+x;
+		System.out.println(x1);
+	}
+}

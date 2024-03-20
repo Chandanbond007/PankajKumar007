@@ -1,0 +1,23 @@
+package StepDefination;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import POM.ActitimeHome;
+import POM.ActitimeLogin;
+import POM.CreateLeaveType;
+import POM.CreateNewCustomer;
+import POM.CreateWork;
+
+public class ActBaseClass 
+{
+	public WebDriver driver;
+	public ActitimeLogin login;
+	public ActitimeHome home;
+	public CreateNewCustomer create;
+	public CreateWork work;
+	public CreateLeaveType leave;
+	public Logger log=LogManager.getLogger(ActBaseClass.class);
+
+}

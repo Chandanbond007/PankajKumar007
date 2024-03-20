@@ -1,0 +1,15 @@
+[INFO ] 2024-03-14 19:41:36.857 [main] ActBaseClass - Driver setup
+[INFO ] 2024-03-14 19:41:39.558 [main] ActBaseClass - Launched Chrome Browser
+[INFO ] 2024-03-14 19:41:39.577 [main] ActBaseClass - Entered the URL
+[INFO ] 2024-03-14 21:04:22.022 [main] ActBaseClass - Driver setup
+[INFO ] 2024-03-14 21:04:39.157 [main] ActBaseClass - Launched Chrome Browser
+[INFO ] 2024-03-14 21:04:39.196 [main] ActBaseClass - Entered the URL
+[INFO ] 2024-03-14 21:06:00.408 [main] ActBaseClass - Entered the email
+[INFO ] 2024-03-14 21:06:00.524 [main] ActBaseClass - Entered the password
+[INFO ] 2024-03-14 21:06:05.575 [main] ActBaseClass - Logged in successfully
+[INFO ] 2024-03-15 15:59:20.567 [main] ActBaseClass - Driver setup
+[INFO ] 2024-03-15 15:59:23.788 [main] ActBaseClass - Launched Chrome Browser
+[INFO ] 2024-03-15 15:59:23.821 [main] ActBaseClass - Entered the URL
+[INFO ] 2024-03-15 15:59:31.063 [main] ActBaseClass - Entered the email
+[INFO ] 2024-03-15 15:59:31.149 [main] ActBaseClass - Entered the password
+[INFO ] 2024-03-15 15:59:36.191 [main] ActBaseClass - Logged in successfully

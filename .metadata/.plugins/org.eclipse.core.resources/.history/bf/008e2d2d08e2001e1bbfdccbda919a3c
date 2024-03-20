@@ -1,0 +1,6 @@
+[INFO ] 2024-03-14 19:05:47.001 [main] StepDefinition - Browser opened
+[INFO ] 2024-03-14 19:05:49.089 [main] StepDefinition - Browser maximised
+[INFO ] 2024-03-14 19:05:52.535 [main] StepDefinition - Entered the URL
+[INFO ] 2024-03-14 19:05:52.611 [main] StepDefinition - Entered the email id
+[INFO ] 2024-03-14 19:05:52.677 [main] StepDefinition - Entered the password
+[INFO ] 2024-03-14 19:07:57.997 [main] StepDefinition - Logged in successfully

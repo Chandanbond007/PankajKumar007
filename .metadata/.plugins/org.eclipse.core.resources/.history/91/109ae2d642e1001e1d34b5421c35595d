@@ -1,0 +1,31 @@
+#Logging in Console
+status = error
+name = Log4j2PropertiesConfig
+ 
+appenders = console
+ 
+appender.console.type = Console
+appender.console.name = LogToConsole
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d [%t] %-5p %c - %m%n
+ 
+rootLogger.level = debug
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = LogToConsole
+
+
+#Logging in File
+status = error
+name = Log4j2PropertiesConfig
+ 
+appenders = file
+ 
+appender.file.type = File
+appender.file.name = FileLogger
+appender.file.filename = Cucumber.log
+appender.file.layout.type = PatternLayout
+appender.file.layout.pattern = %d [%t] %-5p %c - %m%n
+ 
+rootLogger.level = debug
+rootLogger.appenderRefs = file
+rootLogger.appenderRef.file.ref = FileLogger

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" strict = "true">
+    <Appender type="Console" name="STDOUT">
+       
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+    </Appender>
+     <Appender type="File" name="file"
+        fileName="C:\Users\mechr\OneDrive\Desktop\Cucumber\Cucumber\logs\App.log">
+        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+    </Appender>
+    <Loggers>
+    	<!-- Root logger referring to console appender -->
+        <Root level="All">
+            <AppenderRef ref="file" />
+            <AppenderRef ref="STDOUT" />
+        </Root>
+    </Loggers>
+</Configuration>

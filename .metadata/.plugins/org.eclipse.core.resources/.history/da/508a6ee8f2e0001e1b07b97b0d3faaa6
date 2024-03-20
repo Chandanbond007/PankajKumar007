@@ -1,0 +1,15 @@
+package Practice;
+
+public class RevString 
+{
+	public static void main(String[] args) 
+	{
+		//Reversing a string value without using for loop
+		String x="123456";
+		System.out.println(x);
+		StringBuilder sbuild=new StringBuilder(x);
+		sbuild.reverse();
+		System.out.println(sbuild);
+	}
+
+}

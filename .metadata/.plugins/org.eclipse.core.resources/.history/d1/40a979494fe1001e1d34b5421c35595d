@@ -1,0 +1,33 @@
+package AutoIT;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class GmailAttachFiles 
+{
+	public static WebDriver driver=null;
+	
+	public static void main(String[] args) 
+	{
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox");
+		
+		WebElement email=driver.findElement(By.xpath("//input[@aria-label='Email or phone']"));
+		email.sendKeys("pk73501@gmail.com");
+		
+		driver.findElement(By.xpath("//span[text()='Next']/../..")).click();
+		
+		WebElement pwd=driver.findElement(By.xpath("//input[@autocomplete='current-password']"));
+		pwd.sendKeys("Chandan@1993");
+		
+		driver.findElement(By.xpath("//span[text()='Next']/../..")).click();		
+		
+	}
+
+}

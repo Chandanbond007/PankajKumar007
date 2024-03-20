@@ -1,0 +1,9 @@
+package StepDefination;
+
+import POM.HmLoginPage;
+
+public class HMBaseClass 
+{
+	public HmLoginPage login;
+	
+}

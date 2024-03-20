@@ -1,0 +1,34 @@
+package Utility;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadConfig 
+{
+	Properties properties;
+	String path="C:\\Users\\mechr\\OneDrive\\Desktop\\Cucumber\\Cucumber\\Properties\\config.properties";
+	public ReadConfig()
+	{
+		properties= new Properties();
+		FileInputStream fis;
+		try 
+		{
+			fis = new FileInputStream(path);
+			properties.load(fis);
+		}
+			catch (IOException e) 
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			catch (FileNotFoundException e) 
+			{
+				e.printStackTrace();
+			}
+
+
+		}
+
+	}
